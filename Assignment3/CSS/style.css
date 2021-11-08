@@ -1,0 +1,32 @@
+/* Navbar -Border  */
+.nav-border{
+    border-bottom: 1px solid;
+    border-color: rgba(211, 211, 211, 0.507);
+}
+/* Nordic-Pic Mobile View */
+@media (max-width:500px){
+    .nordic-pic{
+        width: 70%;
+    }
+    
+}
+
+/* Nav Bar left icons */
+.navicons-left{
+    margin-left: auto;
+    margin-right: 0px;
+}
+/* Line Below Blog Text */
+.blog-line{
+    border-bottom: 2px solid;
+    width: 4%;
+    position: absolute;
+    bottom: 0px;
+    
+
+
+}
+
+    
+
+
