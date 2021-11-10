@@ -7,6 +7,7 @@
 @media (max-width:500px){
     .nordic-pic{
         width: 70%;
+        
     }
     
 }
@@ -19,14 +20,100 @@
 /* Line Below Blog Text */
 .blog-line{
     border-bottom: 2px solid;
-    width: 4%;
+    width: 5%;
     position: absolute;
     bottom: 0px;
-    
-
+    }
+    @font-face {
+        font-family: New york;
+        src: url(./../Fonts/FontsFree-Net-NewYorkSmallRegular.ttf);
+    }
+.nvabar-fonts{
+font-family: New york,serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 34px;
+font-style: normal;
+}
+/* font & Fonts Style for First Paragraph */
+@font-face {
+    font-family: new york extra;
+    src: url(./../Fonts/New\ York\ Regular.ttf);
+}
+.font-para1{
+ font-family: new york extra;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 48px;
+ line-height: 54px;
+ text-align: center;
+ }
+ @media (max-width:500px) {
+     .para1-left{text-align: left;}
+     
+ }
+.margin-para1{
+    padding-top: 20px; 
+    margin: auto;
+}  
+@font-face {
+    font-family: SF MONO;
+    src: url(./../Fonts/SFMonoRegular.otf);
+}
+.font-para2{
+font-family: SF Mono;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: center;
+}
+.yellow-pic{
+    padding-top: 10px;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+  
+}
+.bottom-line{
+    padding-top: 20px;
+    border-bottom: 2px solid;
+    width: 65%;
+    margin: auto;    
+}
+@media(max-width:500px){
+    .bottom-linem{
+        width: 100%;
+    }
 
 }
-
+.mar-mika{
+    padding-left: 10px;
+    margin-left: 170px;
     
+       }
+       .mar-mika1{
+        padding-left: 50px;
+        
+           }
+            
 
-
+.mask-settings{
+    padding-top: 20px;
+    
+}
+.icon-border{
+    border: 1px solid;
+   
+    width: 40px;
+    padding: 10px;
+}
+.icon-border1{
+    border: 1px solid;
+    
+    width: 40px;
+    padding: 10px;
+}
+  
+    
